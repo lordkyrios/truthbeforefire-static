@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TruthBeforeFire — Faith-Based AI Video Studio (Static)</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="TruthBeforeFire — a clean static landing page. Upgrade later to add APIs and video generation." />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="logo">🔥 TruthBeforeFire</div>
+        <a class="btn ghost" href="#features">Features</a>
+        <a class="btn ghost" href="#pricing">Pricing</a>
+        <a class="btn ghost" href="#faq">FAQ</a>
+        <a class="btn solid" href="#get-started">Get Started</a>
+      </nav>
+      <div class="hero">
+        <h1>Faith‑Based AI Video Studio</h1>
+        <p class="sub">Beautiful videos from your message. This static version is fast, secure, and ready to host anywhere.</p>
+        <div class="cta">
+          <a class="btn solid" href="#get-started">Open Web App</a>
+          <a class="btn ghost" href="#learn-more">Learn More</a>
+        </div>
+        <div class="pill">Static build — HTML &amp; CSS only</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="learn-more" class="section container grid two">
+      <div>
+        <h2>What’s in this static build?</h2>
+        <p>This is a zero‑JavaScript landing shell that you can deploy instantly. It includes a polished homepage, features list, pricing cards, and a contact section.</p>
+        <ul class="checklist">
+          <li>Lightweight &amp; fast, mobile‑first</li>
+          <li>No backend required</li>
+          <li>SEO‑friendly markup</li>
+          <li>Upgradeable to full Next.js APIs later</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Important</h3>
+        <p>This static site does <strong>not</strong> include dynamic features like text‑to‑speech, image generation, or YouTube upload. Add those later with an API.</p>
+        <p>For now, use this as your official public site while the app backend is finalized.</p>
+      </div>
+    </section>
+
+    <section id="features" class="section alt">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="grid three">
+          <div class="card">
+            <h3>Script‑First Workflow</h3>
+            <p>Outline scenes, add captions, plan visuals — all before production.</p>
+          </div>
+          <div class="card">
+            <h3>Voice Options</h3>
+            <p>Choose male/female voices when you upgrade to the full app with TTS.</p>
+          </div>
+          <div class="card">
+            <h3>YouTube‑Ready Export</h3>
+            <p>The full app will export MP4 and upload to your channel with metadata.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section container">
+      <h2>Pricing</h2>
+      <div class="grid three">
+        <div class="price card">
+          <h3>Free Test</h3>
+          <div class="num">$0</div>
+          <ul class="bullets">
+            <li>Static landing</li>
+            <li>About &amp; contact</li>
+            <li>Upgrade later</li>
+          </ul>
+          <a class="btn solid" href="#get-started">Use Now</a>
+        </div>
+        <div class="price card">
+          <h3>Pro</h3>
+          <div class="num">$9.99/mo</div>
+          <ul class="bullets">
+            <li>Short videos (API)</li>
+            <li>Basic TTS</li>
+            <li>Standard export</li>
+          </ul>
+          <a class="btn solid disabled" href="#">Coming Soon</a>
+        </div>
+        <div class="price card">
+          <h3>Creator</h3>
+          <div class="num">$19.99/mo</div>
+          <ul class="bullets">
+            <li>Full videos (API)</li>
+            <li>Background gen</li>
+            <li>YouTube upload</li>
+          </ul>
+          <a class="btn solid disabled" href="#">Coming Soon</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="get-started" class="section alt">
+      <div class="container grid two">
+        <div>
+          <h2>Get Started</h2>
+          <p>Deploy this static site to GitHub Pages or Vercel. When ready, you can migrate to Next.js and keep this exact design.</p>
+          <ol class="steps">
+            <li>Create a new GitHub repo and push these two files.</li>
+            <li>Enable GitHub Pages or connect the repo to Vercel.</li>
+            <li>Share your public URL.</li>
+          </ol>
+        </div>
+        <form class="card form" action="#" method="post" onsubmit="return false;">
+          <h3>Contact</h3>
+          <label>Full Name
+            <input type="text" placeholder="Your name" disabled>
+          </label>
+          <label>Email
+            <input type="email" placeholder="you@example.com" disabled>
+          </label>
+          <label>Message
+            <textarea placeholder="Tell us what you need…" disabled></textarea>
+          </label>
+          <button class="btn solid" disabled>Send (static demo)</button>
+          <p class="muted">Form is static. Wire to an API or Formspree later.</p>
+        </form>
+      </div>
+    </section>
+
+    <section id="faq" class="section container">
+      <h2>FAQ</h2>
+      <details class="card">
+        <summary>Can I add real AI features later?</summary>
+        <div>Yes. Migrate this layout into a Next.js app and implement <code>/app/api/*</code> routes.</div>
+      </details>
+      <details class="card">
+        <summary>Does this work without JavaScript?</summary>
+        <div>This demo uses no JavaScript at all.</div>
+      </details>
+      <details class="card">
+        <summary>Is there a dark mode?</summary>
+        <div>You can add one line in <code>styles.css</code> to toggle a dark theme later.</div>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year">2025</span> TruthBeforeFire. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
